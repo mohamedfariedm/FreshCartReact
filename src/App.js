@@ -24,7 +24,7 @@ function App() {
       setUserToken(localStorage.getItem("userToken"));
     }
   },[])
-  let routers=createBrowserRouter([{
+  let routers=createHashRouter([{
     path:"",element:<LayOut/>,children:[
       {index:true,element:<ProtectedRoute><Home/></ProtectedRoute>},
       {path:"login",element:<LogIn/>},
@@ -39,7 +39,7 @@ function App() {
       {path:"Categories",element:<ProtectedRoute><Categories/></ProtectedRoute>},
       {path:"*",element:<NotFind/>},
     ]
-  }],{basename:"/FreshCartReact/#/"})
+  }])
   return <>
             <RouterProvider router={routers}>
             </RouterProvider>
