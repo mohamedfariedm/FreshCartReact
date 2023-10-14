@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FreshCartReact/static/css/main.e220e3c5.css",
-    "main.js": "/FreshCartReact/static/js/main.d86c110e.js",
+    "main.js": "/FreshCartReact/static/js/main.071707a2.js",
     "static/media/pexels-math-90946.jpg": "/FreshCartReact/static/media/pexels-math-90946.e3d686ee0b68fef12176.jpg",
     "static/media/fa-solid-900.ttf": "/FreshCartReact/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/Laptop-Wallpaers-HD.jpg": "/FreshCartReact/static/media/Laptop-Wallpaers-HD.981612b8876bb61253f6.jpg",
@@ -18,10 +18,10 @@
     "static/media/fa-v4compatibility.woff2": "/FreshCartReact/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/FreshCartReact/index.html",
     "main.e220e3c5.css.map": "/FreshCartReact/static/css/main.e220e3c5.css.map",
-    "main.d86c110e.js.map": "/FreshCartReact/static/js/main.d86c110e.js.map"
+    "main.071707a2.js.map": "/FreshCartReact/static/js/main.071707a2.js.map"
   },
   "entrypoints": [
     "static/css/main.e220e3c5.css",
-    "static/js/main.d86c110e.js"
+    "static/js/main.071707a2.js"
   ]
 }
