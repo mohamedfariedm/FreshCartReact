@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#1db51dca;
+    --light-color:#f0f3f2;
+    --shadow: rgba(78, 172, 62, 0.546) 1px 1px 10px 5px ;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+
+body{
+    font-family: var(--font-family) !important;
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+.product:hover
+{
+    box-shadow: var(--shadow) !important ;
+    border: solid 1.5px var(--main-color);
+}
+.product .btn 
+{
+    transition: transform .5s , opacity 1s;
+    transform: translateY(200%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(-30%);
+
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color) !important;
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main:hover
+{
+    background-color:#018801d0  !important;
+}
+
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+.network{
+    padding: 15px;
+    background-color:#fff;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    z-index: 99999999;
+    box-shadow:var(--shadow);
+}

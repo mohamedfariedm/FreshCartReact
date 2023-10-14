@@ -1,0 +1,32 @@
+.heig{
+    height: 40vh;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.457);
+    }
+.layerBlock{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index:222 ;
+}
+.selfcounter{
+    display: block;
+position:fixed;
+width: 25px;
+height: 25px;
+z-index: 99999999999999999999999999;
+top:3%;
+right: 13%;
+
+}
