@@ -64,7 +64,7 @@ export default function FeaturedCategories() {
   return <>
               <Slider {...settings}>
                 {categories?.data?.data.map((categorie)=><div key={categorie._id} className="text-center px-0">
-            <img width={200} height={250} src={categorie.image} alt="" />
+            <img className='w-100' height={250} src={categorie.image} alt="" />
             <p>{categorie.name}</p>
           </div>)}
 
